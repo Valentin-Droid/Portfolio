@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		A74E7BCD2944A3EF00587AC5 /* PortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E7BCC2944A3EF00587AC5 /* PortfolioApp.swift */; };
-		A74E7BCF2944A3EF00587AC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E7BCE2944A3EF00587AC5 /* ContentView.swift */; };
 		A74E7BD12944A3F000587AC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74E7BD02944A3F000587AC5 /* Assets.xcassets */; };
 		A74E7BD42944A3F000587AC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74E7BD32944A3F000587AC5 /* Preview Assets.xcassets */; };
 		A74E7BDE2944A3F000587AC5 /* PortfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E7BDD2944A3F000587AC5 /* PortfolioTests.swift */; };
 		A74E7BE82944A3F000587AC5 /* PortfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E7BE72944A3F000587AC5 /* PortfolioUITests.swift */; };
 		A74E7BEA2944A3F000587AC5 /* PortfolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E7BE92944A3F000587AC5 /* PortfolioUITestsLaunchTests.swift */; };
+		A74E7BF72944DF8900587AC5 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E7BF62944DF8900587AC5 /* HomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		A74E7BC92944A3EF00587AC5 /* Portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Portfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74E7BCC2944A3EF00587AC5 /* PortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioApp.swift; sourceTree = "<group>"; };
-		A74E7BCE2944A3EF00587AC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A74E7BD02944A3F000587AC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A74E7BD32944A3F000587AC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A74E7BD92944A3F000587AC5 /* PortfolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortfolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +43,7 @@
 		A74E7BE32944A3F000587AC5 /* PortfolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortfolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74E7BE72944A3F000587AC5 /* PortfolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioUITests.swift; sourceTree = "<group>"; };
 		A74E7BE92944A3F000587AC5 /* PortfolioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A74E7BF62944DF8900587AC5 /* HomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				A74E7BCC2944A3EF00587AC5 /* PortfolioApp.swift */,
-				A74E7BCE2944A3EF00587AC5 /* ContentView.swift */,
+				A74E7BF62944DF8900587AC5 /* HomePage.swift */,
 				A74E7BD02944A3F000587AC5 /* Assets.xcassets */,
 				A74E7BD22944A3F000587AC5 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A74E7BCF2944A3EF00587AC5 /* ContentView.swift in Sources */,
+				A74E7BF72944DF8900587AC5 /* HomePage.swift in Sources */,
 				A74E7BCD2944A3EF00587AC5 /* PortfolioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
