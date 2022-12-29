@@ -9,12 +9,20 @@ import SwiftUI
 
 struct Name: View {
     var body: some View {
-        HStack {
-            Text("Valentin")
-                .font(.title)
-            Text("Drelon")
-                .font(.title)
-                .opacity(0.5)
+        VStack {
+            HStack {
+                Text("Valentin")
+                    .font(.title)
+                Text("Drelon")
+                    .font(.title)
+                    .opacity(0.5)
+            }
+            Text("Développeur Mobile")
+                .font(.subheadline)
+            Text("&")
+                .font(.subheadline)
+            Text("Technicien Développement")
+                .font(.subheadline)
         }
     }
 }

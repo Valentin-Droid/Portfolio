@@ -9,14 +9,12 @@ import SwiftUI
 struct PhotoDeProfile: View {
     let image = Image("photoDeProfile3")
     var body: some View {
-        ZStack {
-            image
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .border(.gray, width: 3)
-                
-        }
-        .shadow(radius: 7)
+        image
+            .resizable()
+            .clipShape(Circle())
+            .aspectRatio(contentMode: .fit)
+            .frame(width: 500, height: 500)
+            .shadow(radius: 7)
     }
 }
 struct PhotoDeProfile_Previews: PreviewProvider {
