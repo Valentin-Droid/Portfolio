@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ProjectPage: View {
     var body: some View {
-        Text("Mes différent projets")
+        GithubProfileFetchView()
     }
 }
 

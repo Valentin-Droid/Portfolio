@@ -7,13 +7,13 @@
 import SwiftUI
 
 struct PhotoDeProfile: View {
-    let image = Image("photoDeProfile3")
+    let image = Image("photoDeProfile4")
     var body: some View {
         image
             .resizable()
             .clipShape(Circle())
             .aspectRatio(contentMode: .fit)
-            .frame(width: 500, height: 500)
+            .frame(width: 400, height: 400)
             .shadow(radius: 7)
     }
 }
