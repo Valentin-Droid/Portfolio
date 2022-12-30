@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		A731CC7C294CC2CF00CA24A6 /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = A731CC7B294CC2CF00CA24A6 /* Description.swift */; };
+		A74B525A295F30EA00DD2011 /* Github.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74B5259295F30EA00DD2011 /* Github.swift */; };
+		A74B525C295F321400DD2011 /* Linkedin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74B525B295F321400DD2011 /* Linkedin.swift */; };
+		A74B525E295F325E00DD2011 /* Malt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74B525D295F325E00DD2011 /* Malt.swift */; };
+		A74B5260295F33B400DD2011 /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74B525F295F33B400DD2011 /* Mail.swift */; };
+		A74B5262295F343400DD2011 /* telephone.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74B5261295F343400DD2011 /* telephone.swift */; };
 		A74E7BCD2944A3EF00587AC5 /* PortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E7BCC2944A3EF00587AC5 /* PortfolioApp.swift */; };
 		A74E7BD12944A3F000587AC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74E7BD02944A3F000587AC5 /* Assets.xcassets */; };
 		A74E7BD42944A3F000587AC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74E7BD32944A3F000587AC5 /* Preview Assets.xcassets */; };
@@ -16,7 +21,7 @@
 		A74E7BEA2944A3F000587AC5 /* PortfolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E7BE92944A3F000587AC5 /* PortfolioUITestsLaunchTests.swift */; };
 		A74E7BF92944E2D700587AC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E7BF82944E2D700587AC5 /* ContentView.swift */; };
 		A74E7BFB2944F10F00587AC5 /* ProjectPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E7BFA2944F10F00587AC5 /* ProjectPage.swift */; };
-		A74E7BFE2944F31800587AC5 /* MessagePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E7BFD2944F31800587AC5 /* MessagePage.swift */; };
+		A74E7BFE2944F31800587AC5 /* ContactPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E7BFD2944F31800587AC5 /* ContactPage.swift */; };
 		A7B75D45295EEF2B001054B5 /* GithubRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B75D44295EEF2B001054B5 /* GithubRepository.swift */; };
 		A7B75D47295EEF5A001054B5 /* GithubUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B75D46295EEF5A001054B5 /* GithubUser.swift */; };
 		A7B75D4B295EEFD4001054B5 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B75D4A295EEFD4001054B5 /* HttpClient.swift */; };
@@ -60,6 +65,11 @@
 
 /* Begin PBXFileReference section */
 		A731CC7B294CC2CF00CA24A6 /* Description.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Description.swift; sourceTree = "<group>"; };
+		A74B5259295F30EA00DD2011 /* Github.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Github.swift; sourceTree = "<group>"; };
+		A74B525B295F321400DD2011 /* Linkedin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linkedin.swift; sourceTree = "<group>"; };
+		A74B525D295F325E00DD2011 /* Malt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Malt.swift; sourceTree = "<group>"; };
+		A74B525F295F33B400DD2011 /* Mail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mail.swift; sourceTree = "<group>"; };
+		A74B5261295F343400DD2011 /* telephone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = telephone.swift; sourceTree = "<group>"; };
 		A74E7BC92944A3EF00587AC5 /* Portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Portfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74E7BCC2944A3EF00587AC5 /* PortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioApp.swift; sourceTree = "<group>"; };
 		A74E7BD02944A3F000587AC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,7 +81,7 @@
 		A74E7BE92944A3F000587AC5 /* PortfolioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A74E7BF82944E2D700587AC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A74E7BFA2944F10F00587AC5 /* ProjectPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectPage.swift; sourceTree = "<group>"; };
-		A74E7BFD2944F31800587AC5 /* MessagePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePage.swift; sourceTree = "<group>"; };
+		A74E7BFD2944F31800587AC5 /* ContactPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPage.swift; sourceTree = "<group>"; };
 		A7B75D44295EEF2B001054B5 /* GithubRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubRepository.swift; sourceTree = "<group>"; };
 		A7B75D46295EEF5A001054B5 /* GithubUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubUser.swift; sourceTree = "<group>"; };
 		A7B75D4A295EEFD4001054B5 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
@@ -191,7 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				A74E7BFA2944F10F00587AC5 /* ProjectPage.swift */,
-				A74E7BFD2944F31800587AC5 /* MessagePage.swift */,
+				A74E7BFD2944F31800587AC5 /* ContactPage.swift */,
 				A7CF6B1A294C8B550083E7B6 /* HomePage.swift */,
 			);
 			path = Views;
@@ -318,6 +328,11 @@
 				A7D01FFF294A024A003D19DA /* PhotoDeProfile.swift */,
 				A7D02001294A03E0003D19DA /* Name.swift */,
 				A731CC7B294CC2CF00CA24A6 /* Description.swift */,
+				A74B5259295F30EA00DD2011 /* Github.swift */,
+				A74B525B295F321400DD2011 /* Linkedin.swift */,
+				A74B525D295F325E00DD2011 /* Malt.swift */,
+				A74B525F295F33B400DD2011 /* Mail.swift */,
+				A74B5261295F343400DD2011 /* telephone.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -453,12 +468,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A74B5260295F33B400DD2011 /* Mail.swift in Sources */,
+				A74B525A295F30EA00DD2011 /* Github.swift in Sources */,
 				A7B75D58295EF37A001054B5 /* LeadingText.swift in Sources */,
 				A7B75D45295EEF2B001054B5 /* GithubRepository.swift in Sources */,
 				A7B75D5E295EF438001054B5 /* GithubProfileFetchView.swift in Sources */,
 				A7B75D52295EF27A001054B5 /* App+Color.swift in Sources */,
 				A7B75D60295EF46B001054B5 /* GithubProfileFetchViewModel.swift in Sources */,
 				A7B75D62295EF4E5001054B5 /* GithubProfileView.swift in Sources */,
+				A74B525C295F321400DD2011 /* Linkedin.swift in Sources */,
 				A731CC7C294CC2CF00CA24A6 /* Description.swift in Sources */,
 				A74E7BFB2944F10F00587AC5 /* ProjectPage.swift in Sources */,
 				A7B75D56295EF346001054B5 /* IconPrefixedText.swift in Sources */,
@@ -467,13 +485,15 @@
 				A7D02000294A024A003D19DA /* PhotoDeProfile.swift in Sources */,
 				A7B75D5C295EF3D7001054B5 /* UIConstants.swift in Sources */,
 				A74E7BCD2944A3EF00587AC5 /* PortfolioApp.swift in Sources */,
+				A74B5262295F343400DD2011 /* telephone.swift in Sources */,
+				A74B525E295F325E00DD2011 /* Malt.swift in Sources */,
 				A7B75D6C295EF61D001054B5 /* GithubRepositoryViewModel.swift in Sources */,
 				A74E7BF92944E2D700587AC5 /* ContentView.swift in Sources */,
 				A7B75D6E295EF668001054B5 /* DefaultProfileView.swift in Sources */,
 				A7B75D4B295EEFD4001054B5 /* HttpClient.swift in Sources */,
 				A7D02002294A03E0003D19DA /* Name.swift in Sources */,
 				A7B75D5A295EF3AA001054B5 /* LoadingIndicator.swift in Sources */,
-				A74E7BFE2944F31800587AC5 /* MessagePage.swift in Sources */,
+				A74E7BFE2944F31800587AC5 /* ContactPage.swift in Sources */,
 				A7B75D6A295EF5E1001054B5 /* GithubRepositoryView.swift in Sources */,
 				A7B75D64295EF52B001054B5 /* GithubProfileViewModel.swift in Sources */,
 				A7B75D66295EF55D001054B5 /* ProfileImage.swift in Sources */,

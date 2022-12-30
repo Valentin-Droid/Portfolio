@@ -21,10 +21,10 @@ struct ContentView: View {
                     Image(systemName: "bolt")
                     Text("Projets")
                 }
-            MessagePage()
+            ContactPage()
                 .tabItem() {
-                    Image(systemName: "message")
-                    Text("Messages")
+                    Image(systemName: "info.bubble")
+                    Text("Contact")
                 }
         }
     }
